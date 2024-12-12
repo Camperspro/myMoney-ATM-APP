@@ -1,0 +1,15 @@
+﻿<Window x:Class="myMoneyBanking.userOtherAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myMoneyBanking"
+        mc:Ignorable="d"
+        Title="userOtherAccount" Height="600" Width="800">
+    <Grid>
+        <Label Content="Other Account(s)" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="107" Width="715" FontWeight="Bold" FontSize="72" FontFamily="Microsoft YaHei" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Rectangle HorizontalAlignment="Center" Height="382" Margin="0,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="715"/>
+        <Button Content="Return" HorizontalAlignment="Center" Margin="0,529,0,0" VerticalAlignment="Top" Height="32" Width="300" Background="#FFF35353" FontWeight="Bold" FontSize="16"/>
+
+    </Grid>
+</Window>
